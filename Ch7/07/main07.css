@@ -1,0 +1,24 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+/* 가상 요소 선택자 before 기본구조 ::before { content: "텍스트"} */
+/* .box::before {
+  content: "앞!";
+} */
+
+/* 가상 요소 선택자 after 기본구조 ::after { content: "텍스트"} */
+/* .box::after {
+  content: "뒤!";
+} */
+
+.box::after {
+  content: "";
+  display: block;
+  /* 인라인요소(가로,세로값을 가질수 없음)를 블럭요소로 변경시킬수 있는 속성 */
+  width: 30px;
+  height: 30px;
+  background-color: royalblue;
+}
