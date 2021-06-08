@@ -1,0 +1,33 @@
+
+/* 
+backface-visibility = 기본값(visible) = 뒷면 보임
+backface-visibility: hidden = 뒷면 안보여줌 */
+
+body {
+  padding: 100px;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  perspective: 250px;
+  /* 자식요소 transform에 직접하는 방식(함수)보다 
+  부모요소 속성요소로 추가하는게 더 나음 */
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  font-size: 60xp;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 글자 중앙정렬 */
+  transform: rotateY(180deg);
+  /* 3D 변환함수 */
+  backface-visibility: hidden;
+  /* 뒷면 숨김 */
+}
