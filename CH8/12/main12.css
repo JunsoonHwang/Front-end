@@ -1,0 +1,18 @@
+
+h1 {
+  font-size: 24px;
+  /* 글자의 기본 크기(16px) */
+  font-weight: 700;
+  /* 글자의 두께(400, 700 많이 사용) */
+  font-style: italic;
+  /* 기울어진 글자 */
+}
+
+p {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid;
+  box-sizing: border-box;
+  line-height: 1.4;
+  /* 자간 조절 */
+}
