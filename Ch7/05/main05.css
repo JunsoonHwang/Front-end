@@ -1,0 +1,29 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  /* 시간당 전환효과(hover로 인해 1초안에 300px까지 늘어나는 효과) */
+  transition: 1s;
+}
+
+/* 가상클래스 선택자 hover(마우스를 올리면 밑에 설정들로 변경) */
+/* .box:hover {
+  width: 300px;
+  background-color: royalblue;
+}  */
+
+/* 가상클래스 선택자 active(마우스로 누르고 있는 동안 변경됌) */
+.box:active {
+  width: 300px;
+  background-color: royalblue;
+} 
+
+input {
+
+}
+
+/* 가상클래스 선택자 focus(검색창을 클릭했을시 변경,인풋,셀렉트,텍스트에디어 사용가능) */
+/* 만약 포커스가 가능하지 않은 요소를 가능하게 만드려면 html 요소에 tapindex="-1 입력하면 적용가능 */
+input:focus {
+  background-color: orange;
+}
