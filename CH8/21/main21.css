@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s .5s;
+  /*transition = 요소의 전환(시작과 끝)효과를 지정하는 단축 속성  */
+  /* transition: 1s .5s;
+  = 첫번째 s는 지속시간, 두번째 s는 대기시간
+  */
+
+  /* transition:
+  width .5s,
+  background-color 2s; */
+  /* 각각 다른시간 설정 가능 */
+}
+
+/* transition-timing-function
+
+밑의 사이트들 들어가보면 easing이해 가능
+easing function
+easing function mdn
+tweenmax easing 
+*/
+
+
+
+div:active {
+  width: 300px;
+  background-color: royalblue;
+}
