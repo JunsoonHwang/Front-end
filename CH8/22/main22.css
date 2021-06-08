@@ -1,0 +1,38 @@
+body {
+  padding: 100px;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  /* transform: rotate(45deg) scale(1.3); */
+  /* transform = 요소의 변환 */
+
+  /* 2D 변환 함수
+
+  translate(x,y) = 이동(x축,y축)
+  translateX or Y = 이동(x축 or y축)
+
+  scale(값) = 크기(배수)(x,y축)
+
+  rotate(각도deg) = 회전(각도)
+
+  skewX or Y = 기울임(x or y축)
+
+  3D 변환 함수 
+  
+  rotateX or Y = 회전(x or y)
+
+  perspective(n) = 원근법(거리 ~px)
+  
+  */
+  transform: perspective(150px) rotateX(45deg) 
+  translate(100px);
+}
