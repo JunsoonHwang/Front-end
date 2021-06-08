@@ -1,0 +1,14 @@
+a {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  font-size: 22px;
+  color: white;
+  /* 글자의 색상(font-color X) */
+  text-decoration: none;
+  text-align: center;
+  /* 문자의 정렬(left, right, center) */
+  line-height: 100px;
+  /* text-indent: 50px; = 문장의 첫째 줄 들여쓰기 */
+}
