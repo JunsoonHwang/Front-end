@@ -1,0 +1,20 @@
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+/* justify-content = 수평정렬의 위치 지정(start, center, end)  */
+  align-items: center;
+  /* align-items = 수직정렬의 위치 지정(start, center, end) */
+
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap = 요소가 찌그러 지지 않도록 줄바꿈 */
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 3px dashed red;
+  background-color: orange;
+}
