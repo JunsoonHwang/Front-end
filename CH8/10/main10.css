@@ -1,0 +1,12 @@
+body {
+  margin: 20px;
+}
+
+span {
+  display: block;
+  /* display: block = 인라인요소에 가로,세로 너비 지정 가능 */
+  width: 120px;
+  height: 30px;
+  background-color: royalblue;
+  color: white;
+}
