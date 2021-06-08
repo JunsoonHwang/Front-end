@@ -1,0 +1,7 @@
+div {
+  width: 100px;
+  height: 100px;
+  /* width, height = auto라는 기본값(브라우저가 자동으로 요소의 너비를 계산해서 출력)이 들어있음 */
+  /* 단위를 지정해서 변경해주는 과정(px) */
+  background-color: orange;
+}
