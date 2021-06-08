@@ -1,0 +1,49 @@
+/* body {
+  height: 3000px;
+} */
+
+/* .wrap {
+  width: 400px;
+  height: 300px;
+  background-color: tomato;
+  position: relative;
+} */
+
+.container {
+  width: 300px;
+  background-color: royalblue;
+  position: relative;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+.container .item:nth-child(1) {
+  position: relative;
+  z-index: 1;
+  /* 요소 쌓임(밑의 조건 순서로 쌓임)
+
+     1. position이 있는 요소가 더 위에 쌓임
+     2. z-index 값이 클수로 위로 쌓임
+     3. html파일상 가장 나중에 작성된 코드가 위로 쌓임
+  */
+}
+
+.container .item:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.container .item:nth-child(3) {
+  position: fixed;
+  z-index: 2;
+}
+
+
+
+
