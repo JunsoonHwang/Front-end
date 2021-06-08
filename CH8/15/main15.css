@@ -1,0 +1,54 @@
+.container {
+  width: 300px;
+  background-color: royalblue;
+  /* position: relative; */
+  /* position = 요소의 위치 지정 기준
+
+     position static = 위치를 사용하지 않겠다
+     position relative = 요소 자신을 기준(거의 사용되지 않음)
+     position absolute = 위치상 부모요소 기준
+     position fixed = 뷰포트 기준 
+     
+     position 기준 지정후
+     
+     (속성)
+     top
+     bottom
+     left
+     right
+     z-index
+     단위를 사용하여 위치조정
+     */
+
+     
+}
+
+.container .item {
+  border: 4px dashed red;
+  background-color: orange;
+}
+
+.container .item:nth-child(1) {
+  width: 100px;
+  height: 100px;
+}
+
+.container .item:nth-child(2) {
+  width: 140px;
+  height: 70px;
+  /* position: absolute;
+  right: 10px;
+  bottom: 10px; */
+  position: relative;
+  top: 30px;
+  left: 200px;
+}
+
+.container .item:nth-child(3) {
+  width: 70px;
+  height: 120px;
+}
+
+
+
+
