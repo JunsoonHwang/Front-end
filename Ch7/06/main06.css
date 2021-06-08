@@ -1,0 +1,21 @@
+/* 가상 클래스 선택자 first-child = 형제요소중 첫째이며 fruits라는 클래스 안에있는 후손인 span 태그선택자 */
+/* 첫째 형제 요소가 span이기 때문에 div요소는 적용불가 */
+/* .fruits span:first-child {
+  color: red;
+} */
+
+/* 가상 클래스 선택자 last-child = 막내 요소를 선택할수 있음 */
+/* .fruits h3:last-child {
+  color: red;
+} */
+
+/* 가상 클래스 선택자 nth-child(n) n번째 형제요소 선택가능 */
+/* nth-child는 (2n)짝수, (2n+1)홀수, (n+2)두번째부터 끝까지 등 이런 선택도 가능 */
+/* .fruits *:nth-child(2n) {
+  color: red;
+} */
+
+/* 부정 선택자 = ()를 제외한 요소 선택 */
+/* .fruits *:not(span) {
+  color: red;
+} */
