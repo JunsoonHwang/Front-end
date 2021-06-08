@@ -1,0 +1,6 @@
+/* css기본문법 = 선택자 {속성: 값;} */
+div { 
+  font-size: 50px;
+  color: blue;
+  text-decoration: underline;
+}
