@@ -1,0 +1,19 @@
+/* 1.전체 선택자(모든 요소 선택)
+* {
+  color: red;
+} */
+
+/* 2.태그 선택자(해당 이름의 태그 선택)
+li {
+  color: blue;
+} */
+
+/* 3.클래스 선택자(html 해당 class이름 선택)
+.orange {
+  color: purple;
+} */
+
+/* 4.아이디 선택자(html 해당 id이름 선택)
+#orange {
+  color: green;
+} */
