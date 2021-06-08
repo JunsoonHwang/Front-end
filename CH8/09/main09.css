@@ -1,0 +1,20 @@
+.parent {
+  width: 200px;
+  height: 150px;
+  background-color: royalblue;
+  margin: 20px;
+  padding: 20px;
+  overflow: scroll;
+  /* overflow: visible = 넘친 요소를 보여줘
+  overflow: hidden = 넘친 요소를 숨겨줘
+  overflow: scroll = 넘어가진 않지만 넘친 부분을 볼수 있게 x,y축 스크롤을 만들어줘
+  overflow: auto = 가로, 세로 중 넘친 부분만 스크롤 만들어줘 */
+}
+
+.child {
+  width: 300px;
+  height: 100px;
+  background-color: orange;
+  opacity: 0.5;
+  /* opacity = 투명도(0~1) */
+}
