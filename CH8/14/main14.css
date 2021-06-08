@@ -1,0 +1,28 @@
+body {
+  height: 3000px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  background-image: url("https://heropy.blog/css/images/logo.png");
+  /* background-image: url("경로") */
+  background-size: cover;
+  /* background-size = 단위
+     background-size = cover = x,y축 중 더 긴 너비에 맞춰짐
+     background-size = contain = x,y축 중 더 짧은 너비에 맞춰짐 */
+  background-repeat: no-repeat;
+  /* 기본값 = repeat
+  background-repeat: repeat-x or y = x or y축만 반복
+  background-repeat: no-repeat = 반복 안함 */
+  background-position: center;
+  /* 요소의 배경 이미지 위치 */
+
+  background-attachment: scroll;
+
+  /* background-attachment = 요소의 배경 이미지 스크롤 특성
+  background-attachment: scroll; = 스크롤이 움직임에 따라 위아래로 움직임
+  background-attachment: fixed; = 화면에 이미지가 고정됌 */
+
+}
