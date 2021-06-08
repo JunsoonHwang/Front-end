@@ -1,0 +1,11 @@
+/* 3.링크방식
+div {
+  color: red;
+  margin: 20px;
+} */
+
+/* 4.임폴트 방식
+@import url("./box.css");
+div {
+  font-size: 100px;
+} */
