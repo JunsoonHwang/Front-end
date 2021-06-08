@@ -1,0 +1,10 @@
+span {
+  /* display: block; */
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  font-size: 40px;
+  position: absolute;
+  /* position: absolute or fixed 
+  = 지정시 display값이 자동으로 블록으로 변경됌 */
+}
