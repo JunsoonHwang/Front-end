@@ -1,0 +1,23 @@
+<!-- 선택자 우선순위 -->
+<!-- 1.점수 높은 선언 우선
+2.점수 같으면 가장 마지막에 해석된 선언이 우선(덮어쓰기 개념) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div
+  id="color_yellow"
+  class="color_green"
+  style="color: orange">
+  <!-- 인라인방식 = 1000점(점수가 쓸데없이 너무 높아서 안쓰는 것 추천) -->
+  Hello World!
+  </div>
+  
+</body>
+</html>
