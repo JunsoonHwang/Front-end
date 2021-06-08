@@ -1,0 +1,13 @@
+/* 속성 선택자 = [속성] */
+/* [disabled] {
+  color: red;
+} */
+
+[type="text"] {
+  /* 타입이 텍스트인 속성만 적용 */
+  background-color: orange;
+}
+
+[data-fruit-name] {
+  color: red;
+}
